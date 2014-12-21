@@ -35,5 +35,5 @@ man1$get()
 cacheSolve(man1)
 cacheSolve(man1)
 man1$getInverse()
-b = a$getInverse()
-man1$get() %*% b
+man2 = man1$getInverse()
+man1$get() %*% man2
